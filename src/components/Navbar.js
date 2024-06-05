@@ -8,8 +8,8 @@ const Navbar = () => {
     return (
         <nav className="bg-gradient-to-r from-purple-600 to-indigo-600 shadow-lg">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-                <Link to="/"><div className="text-white text-2xl font-bold">MyShop</div></Link>
-                <div className="flex space-x-8 text-white text-lg">
+                <Link to="/"><div className="text-white text-md md:text-2xl font-semibold mr-1 md:font-bold">MyShop</div></Link>
+                <div className="flex space-x-2 md:space-x-8 text-white text-sm md:text-lg">
                     <Link to="/" className="flex items-center hover:text-indigo-300 transition duration-300">
                         <AiOutlineProduct className="mr-2" /> Products
                     </Link>
